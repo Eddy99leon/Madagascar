@@ -11,7 +11,7 @@ export default {
         Montserrat: ["Montserrat", "sans-serif"]
       },
       colors: {
-        Noir: "#0b0014",
+        Noir: "#010102",
         Rouge: "#f40000",
         Vert: "#38b000",
       }
