@@ -14,13 +14,13 @@ const Navbar = () => {
           </h1>
         </Link>
         <ul className='text-md space-x-5 font-semibold'>
-          <NavLink to='/'>
+          <NavLink to='/' className='Nav-link'>
             Home
           </NavLink>
-          <NavLink to='/gallery'>
+          <NavLink to='/gallery' className='Nav-link'>
             Gallery
           </NavLink>
-          <NavLink to='/contact'>
+          <NavLink to='/contact' className='Nav-link'>
             Contact
           </NavLink>
         </ul>
