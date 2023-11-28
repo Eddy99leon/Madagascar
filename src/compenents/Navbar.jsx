@@ -5,7 +5,8 @@ import { PiFacebookLogoDuotone, PiTwitterLogoDuotone, PiYoutubeLogoDuotone } fro
 
 const Navbar = () => {
   return (
-    <nav className='max-w-5xl flex items-center justify-between fixed w-full inset-x-0 mx-auto px-3 py-4'>
+    <section className='bg-Noir w-full fixed border-b border-gray-800 z-10'>
+      <nav className='max-w-5xl flex items-center justify-between mx-auto px-3 py-4'>
         <Link to='/' className='flex items-center'>
           <img src={madagascar} alt="logo" className='w-10 mr-1' />
           <h1 className='text-2xl font-medium'>
@@ -28,7 +29,8 @@ const Navbar = () => {
           <PiTwitterLogoDuotone className='cursor-pointer text-Rouge' />
           <PiYoutubeLogoDuotone className='cursor-pointer text-Vert' />
         </div>
-    </nav>
+      </nav>
+    </section>
   )
 }
 
