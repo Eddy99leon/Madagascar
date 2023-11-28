@@ -4,6 +4,7 @@ import Gallery from "./pages/Gallery"
 import Contact from "./pages/Contact"
 import Layout from "./pages/Layout"
 import { IoIosArrowUp } from "react-icons/io"
+import Sidebar from "./compenents/Sidebar"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <Sidebar />
       <Routes>
         <Route basename="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
