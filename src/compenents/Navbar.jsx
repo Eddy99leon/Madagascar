@@ -11,10 +11,10 @@ const Navbar = () => {
 
   return (
     <section className='bg-Noir w-full fixed border-b border-gray-800 z-10'>
-      <nav className='max-w-5xl flex items-center justify-between mx-auto px-3 py-4'>
+      <nav className='max-w-5xl flex items-center justify-between mx-auto px-3 py-2 sm:py-4'>
         <Link to='/' className='flex items-center'>
-          <img src={madagascar} alt="logo" className='w-10 mr-1' />
-          <h1 className='text-2xl font-medium'>
+          <img src={madagascar} alt="logo" className='w-8 sm:w-10 mr-1' />
+          <h1 className='text-xl sm:text-2xl font-medium'>
             Mada
           </h1>
         </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
             onClick={()=> setIsOpen(!isOpen)}
             className=" hover:text-Rouge cursor-pointer md:hidden"
         >
-            <BiMenu className='text-3xl' />
+            <BiMenu className='text-2xl sm:text-3xl' />
         </div>
       </nav>
     </section>

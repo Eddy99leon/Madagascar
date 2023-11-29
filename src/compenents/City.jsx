@@ -8,13 +8,13 @@ const City = () => {
   return (
     <section className='bg-Noir'>
         <div className='max-w-5xl mx-auto px-3 pt-24 pb-32'>
-            <h2 className='uppercase text-center font-semibold text-Rouge'>
+            <h2 className='uppercase text-center font-semibold text-Rouge text-xs sm:text-sm md:text-base'>
                 Park of
             </h2>
-            <h1 className='text-center font-semibold text-4xl mb-9'>
+            <h1 className='text-center font-semibold text-2xl sm:text-3xl md:text-4xl mb-8 sm:mb-12 md:mb-16'>
                 Attractions
             </h1>
-            <div className='grid grid-cols-3 gap-4 justify-items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 justify-items-center'>
                 <div className='w-[300px] border border-gray-950 shadow-sm shadow-gray-900'>
                     <div className='w-full h-[200px] overflow-hidden'>
                         <img src={tsingy3} alt="park" className=' object-cover h-full' />

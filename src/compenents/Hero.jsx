@@ -5,19 +5,19 @@ const Hero = () => {
     <section className="bg-[url('./assets/mada4.jpg')] w-full h-screen bg-center bg-no-repeat bg-cover">
       <div className='flex justify-center bg-black/60 w-full h-screen'>
         <div className='pt-56'>
-          <h2 className='text-2xl font-bold text-center text-black'>
+          <h2 className='text-lg sm:text-2xl md:text-3xl font-bold text-center text-black'>
             Welcome to:
           </h2>
-          <h1 className=' font-bold text-[150px] leading-[100px] text-Vert'>
+          <h1 className='font-bold text-[50px] sm:text-[80px] md:text-[100px] lg:text-[150px]  text-Vert text-center'>
             Madagascar
           </h1>
-          <p className='mt-10 text-center font-semibold'>
+          <p className=' text-center font-semibold text-xs sm:text-sm md:text-base'>
             Lorem ipsum dolor sit amet consectetur dolorem.
             <br />
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <div className='flex justify-center mt-6'>
-            <button className='px-6 py-3 bg-Rouge text-Noir font-semibold rounded-md'>
+            <button className='px-6 py-3 bg-Rouge text-Noir font-semibold text-xs sm:text-sm md:text-base rounded-md'>
               Explore
             </button>
           </div>
