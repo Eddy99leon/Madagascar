@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiSearch } from 'react-icons/bi'
 import CardGallery from '../compenents/CardGallery'
+import Gallerys from '../assets/data'
 
 const Gallery = () => {
   return (
@@ -14,16 +15,10 @@ const Gallery = () => {
             />
             <BiSearch className='absolute top-2 left-2 text-gray-300 text-2xl' />
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center'>
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
-            <CardGallery />
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center'>
+            {Gallerys.map((gallery) => {
+              return <CardGallery gallery={gallery} key={gallery.id} />
+            })}
           </div>
         </div>
     </section>
