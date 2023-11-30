@@ -43,7 +43,7 @@ const Contact = () => {
                       className='w-full h-24 p-3 bg-gray-800 placeholder-gray-300 font-medium outline-none border-none rounded-md text-sm md:text-base' 
                       placeholder='Message' 
                     />
-                    <button className='bg-Rouge py-3 px-6 text-Noir font-semibold rounded-md mt-4 text-sm md:text-base'>
+                    <button className='bg-Rouge py-3 px-6 text-Noir font-semibold rounded-md mt-2 md:mt-4 text-sm md:text-base'>
                       Submit
                     </button>
                   </div>

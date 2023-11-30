@@ -15,7 +15,7 @@ const City = () => {
                 Attractions
             </h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 justify-items-center'>
-                <div className='w-[300px] border border-gray-950 shadow-sm shadow-gray-900'>
+                <div className='max-w-[320px] border border-gray-800 shadow-sm shadow-gray-900'>
                     <div className='w-full h-[200px] overflow-hidden'>
                         <img src={tsingy3} alt="park" className=' object-cover h-full' />
                     </div>
@@ -29,7 +29,7 @@ const City = () => {
                         </p>
                     </div>
                 </div>
-                <div className='w-[300px] border border-gray-950 shadow-sm shadow-gray-900'>
+                <div className='max-w-[320px] border border-gray-800 shadow-sm shadow-gray-900'>
                     <div className='w-full h-[200px] overflow-hidden object-cover'>
                         <img src={rova} alt="park" className=' object-cover h-full' />
                     </div>
@@ -43,7 +43,7 @@ const City = () => {
                         </p>
                     </div>
                 </div>
-                <div className='w-[300px] border border-gray-950 shadow-sm shadow-gray-900'>
+                <div className='max-w-[320px] border border-gray-800 shadow-sm shadow-gray-900'>
                     <div className='w-full h-[200px] overflow-hidden'>
                         <img src={isalo} alt="park" className=' object-cover' />
                     </div>

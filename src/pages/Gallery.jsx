@@ -23,7 +23,7 @@ const Gallery = () => {
             {Gallerys.filter((gallery) => {
               return search.toLowerCase() === '' 
               ? gallery 
-              : gallery.name.toLowerCase().includes(search);
+              : gallery.name.toLowerCase().includes(search.toLocaleLowerCase());
             }).map((gallery) => {
               return <CardGallery gallery={gallery} key={gallery.id} />
             })}

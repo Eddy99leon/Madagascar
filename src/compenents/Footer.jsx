@@ -6,7 +6,7 @@ import { PiFacebookLogoDuotone, PiGithubLogoDuotone, PiLinkedinLogoDuotone } fro
 const Footer = () => {
   return (
     <section className="bg-Noir">
-        <div className='max-w-5xl mx-auto px-3 pt-16 pb-12 border-t border-gray-900 flex sm:block justify-center'>
+        <div className='max-w-5xl mx-auto px-3 pt-16 pb-12 border-t border-gray-800 flex sm:block justify-center'>
 
             <div className='sm:flex justify-between'>
                 <div className='mb-6 sm:mb-0'>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         </div>
 
-        <div className='border-t border-gray-900'>
+        <div className='border-t border-gray-800'>
           <div className='max-w-5xl mx-auto px-3 py-3 flex justify-center md:justify-between items-center'>
               <div className='font-medium text-xs sm:text-sm md:text-base'>
                   © Coder with 🤍❤️💚 by<span className='font-semibold'> Eddy Andriamisaina.</span>

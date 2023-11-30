@@ -1,10 +1,9 @@
 import React from 'react'
-import tsingy3 from '../assets/tsingy3.jpg'
 import { PiMapPinDuotone } from 'react-icons/pi'
 
 const CardGallery = ({ gallery }) => {
   return (
-    <div className='w-[300px] border border-gray-950 shadow-sm shadow-gray-900 rounded-sm'>
+    <div className='max-w-[360px] border border-gray-800 shadow-sm shadow-gray-900 rounded-sm'>
         <div className='w-full h-[200px] overflow-hidden'>
             <img src={gallery.picture} alt="park" className=' object-cover h-full w-full' />
         </div>
@@ -25,7 +24,7 @@ const CardGallery = ({ gallery }) => {
                     </span>
                 </div>
                 <div>
-                    <button className='text-sm text-Rouge font-semibold py-1 px-2 bg-gray-950 rounded-sm'>
+                    <button className='text-sm text-Rouge font-semibold py-1 px-2 bg-gray-900 rounded-sm'>
                         View details
                     </button>
                 </div>
