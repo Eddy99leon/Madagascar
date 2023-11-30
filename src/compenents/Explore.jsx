@@ -15,24 +15,24 @@ const Explore = () => {
                 ipsum dolor sit amet consectetur.
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-3 justify-items-center'>
-                <div className="bg-[url('./assets/explore2.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-lg border border-gray-950">
-                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4 rounded-lg'>
+                <div className="bg-[url('./assets/explore2.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-md border border-gray-950">
+                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4'>
                         <div>
                             <h2 className='text-lg font-semibold text-Vert'>West Mountains</h2>
                             <p>Nepal</p>
                         </div>
                     </div>
                 </div>
-                <div className="bg-[url('./assets/explore3.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-lg border border-gray-950">
-                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4 rounded-lg'>
+                <div className="bg-[url('./assets/explore3.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-md border border-gray-950">
+                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4'>
                         <div>
                             <h2 className='text-lg font-semibold text-Vert'>West Mountains</h2>
                             <p>Nepal</p>
                         </div>
                     </div>
                 </div>
-                <div className="bg-[url('./assets/explore6.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-lg border border-gray-950">
-                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4 rounded-lg'>
+                <div className="bg-[url('./assets/explore6.jpg')] w-[300px] h-[400px] bg-center bg-no-repeat bg-cover rounded-md border border-gray-950">
+                    <div className='text-center w-full h-full flex items-end justify-center bg-gradient-to-t from-gray-950 to-transparent pb-4'>
                         <div>
                             <h2 className='text-lg font-semibold text-Vert'>West Mountains</h2>
                             <p>Nepal</p>
