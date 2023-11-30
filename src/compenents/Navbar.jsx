@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { SidebarContext } from '../contexts/SidebarContext';
 import madagascar from "../assets/madagascar.png"
 import { Link, NavLink } from 'react-router-dom'
-import { PiFacebookLogoDuotone, PiTwitterLogoDuotone, PiYoutubeLogoDuotone } from 'react-icons/pi'
+import { PiFacebookLogoDuotone, PiGithubLogoDuotone, PiLinkedinLogoDuotone } from 'react-icons/pi'
 import { BiMenu } from 'react-icons/bi';
 
 const Navbar = () => {
@@ -29,10 +29,10 @@ const Navbar = () => {
             Contact
           </NavLink>
         </ul>
-        <div className='hidden md:flex items-center space-x-2 text-3xl'>
-          <PiFacebookLogoDuotone className='cursor-pointer' />
-          <PiTwitterLogoDuotone className='cursor-pointer text-Rouge' />
-          <PiYoutubeLogoDuotone className='cursor-pointer text-Vert' />
+        <div className='hidden md:flex items-center space-x-3 text-3xl'>
+            <PiFacebookLogoDuotone className='cursor-pointer' />
+            <PiLinkedinLogoDuotone className='cursor-pointer text-Rouge' />
+            <PiGithubLogoDuotone className='cursor-pointer text-Vert' />
         </div>
         <div 
             onClick={()=> setIsOpen(!isOpen)}

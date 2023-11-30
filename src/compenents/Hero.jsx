@@ -17,9 +17,11 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <div className='flex justify-center mt-6'>
-            <button className='px-6 py-3 bg-Rouge text-Noir font-semibold text-xs sm:text-sm md:text-base rounded-md'>
-              Explore
-            </button>
+            <a href="#explore">
+              <button className='px-6 py-3 bg-Rouge text-Noir font-semibold text-xs sm:text-sm md:text-base rounded-md'>
+                Let's go 😀
+              </button>
+            </a>
           </div>
         </div>
       </div>
