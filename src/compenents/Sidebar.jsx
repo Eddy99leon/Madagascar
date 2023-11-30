@@ -36,21 +36,21 @@ const Sidebar = () => {
 
         <ul className="flex flex-col mx-auto text-center space-y-4 font-medium text-lg">
             <NavLink 
-                to='/' 
+                to='/Madagascar/' 
                 className='Nav-link' 
                 onClick={handleClose}
             >
                 Home
             </NavLink>
             <NavLink 
-                to='/gallery' 
+                to='/Madagascar/gallery' 
                 className='Nav-link' 
                 onClick={handleClose}
             >
                 Gallery
             </NavLink>
             <NavLink 
-                to='/contact' 
+                to='/Madagascar/contact' 
                 className='Nav-link' 
                 onClick={handleClose}
             >
@@ -68,7 +68,7 @@ const Sidebar = () => {
           </a>
           <a 
             className=" hover:transform hover:scale-95" 
-            href="#lien"
+            href="https://www.linkedin.com/in/eddy-andriamisaina-863431299"
             target='_blank'
           >
             <PiLinkedinLogoDuotone className='cursor-pointer text-Rouge text-3xl' />

@@ -31,9 +31,9 @@ const Footer = () => {
                       Quick link
                     </h1>
                     <ul className='flex flex-col text-gray-400 text-sm sm:text-base'>
-                      <Link to="/" className='hover:text-gray-50'>Home</Link>
-                      <Link to="/gallery" className='hover:text-gray-50'>Gallery</Link>
-                      <Link to="/contact" className='hover:text-gray-50'>Contact</Link>
+                      <Link to="/Madagascar/" className='hover:text-gray-50'>Home</Link>
+                      <Link to="/Madagascar/gallery" className='hover:text-gray-50'>Gallery</Link>
+                      <Link to="/Madagascar/contact" className='hover:text-gray-50'>Contact</Link>
                     </ul>
                   </div>
                   <div>
