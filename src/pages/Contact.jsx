@@ -79,10 +79,10 @@ const Contact = () => {
                   <h1 className='text-3xl text-Rouge font-medium'>
                     Follow us
                   </h1>
-                  <p className='space-x-3 font-medium'>
-                    <span>Facebook</span>
-                    <span>Instagram</span>
-                    <span>Youtube</span>
+                  <p className='flex space-x-3 font-medium'>
+                    <a href='#'>Facebook</a>
+                    <a href='#'>Instagram</a>
+                    <a href='#'>Youtube</a>
                   </p>
                 </div>
               </div>

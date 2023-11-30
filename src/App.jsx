@@ -5,6 +5,7 @@ import Contact from "./pages/Contact"
 import Layout from "./pages/Layout"
 import { IoIosArrowUp } from "react-icons/io"
 import Sidebar from "./compenents/Sidebar"
+import ScrollToTop from "./compenents/ScrollToTop"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Sidebar />
       <Routes>
         <Route basename="/Madagascar/" element={<Layout />}>
