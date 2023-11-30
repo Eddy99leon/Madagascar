@@ -31,9 +31,9 @@ const Footer = () => {
                       Quick link
                     </h1>
                     <ul className='flex flex-col text-gray-400 text-sm sm:text-base'>
-                      <Link className='hover:text-gray-50'>Home</Link>
-                      <Link className='hover:text-gray-50'>Gallery</Link>
-                      <Link className='hover:text-gray-50'>Contact</Link>
+                      <Link to="/" className='hover:text-gray-50'>Home</Link>
+                      <Link to="/gallery" className='hover:text-gray-50'>Gallery</Link>
+                      <Link to="/contact" className='hover:text-gray-50'>Contact</Link>
                     </ul>
                   </div>
                   <div>
@@ -52,11 +52,11 @@ const Footer = () => {
         </div>
 
         <div className='border-t border-gray-900'>
-          <div className='max-w-5xl mx-auto px-3 py-3 flex justify-center sm:justify-between items-center'>
+          <div className='max-w-5xl mx-auto px-3 py-3 flex justify-center md:justify-between items-center'>
               <div className='font-medium text-xs sm:text-sm md:text-base'>
                   © Coder with 🤍❤️💚 by<span className='font-semibold'> Eddy Andriamisaina.</span>
               </div>
-              <div className='hidden sm:flex items-center space-x-3 text-3xl'>
+              <div className='hidden md:flex items-center space-x-3 text-2xl md:text-3xl'>
                 <PiFacebookLogoDuotone className='cursor-pointer' />
                 <PiLinkedinLogoDuotone className='cursor-pointer text-Rouge' />
                 <PiGithubLogoDuotone className='cursor-pointer text-Vert' />

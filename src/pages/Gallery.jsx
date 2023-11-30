@@ -10,10 +10,10 @@ const Gallery = () => {
   return (
     <section className='bg-Noir'>
         <div className='max-w-5xl mx-auto px-3 pt-28 pb-32'>
-          <div className='relative mx-auto flex justify-center items-center w-[280px] h-[40px] bg-gray-900 rounded-md overflow-hidden mb-10'>
+          <div className='relative mx-auto flex justify-center items-center w-[250px] sm:w-[280px] h-[40px] bg-gray-900 rounded-md overflow-hidden mb-10'>
             <input 
               type="text" 
-              className='w-full h-full border-none outline-none bg-gray-900 pl-10 placeholder-gray-400 font-medium'
+              className='w-full h-full border-none outline-none bg-gray-900 pl-10 placeholder-gray-400 font-medium text-sm sm:text-base'
               placeholder='Search..' 
               onChange={(e) => setSearch(e.target.value)}
             />

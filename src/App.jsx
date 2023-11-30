@@ -23,7 +23,7 @@ function App() {
         </Route>
       </Routes>
       <div 
-        className='fixed right-5 md:right-10 bottom-8 cursor-pointer md:text-xl bg-Rouge p-1 md:p-2 text-gray-950 shadow-sm shadow-ColorVert'
+        className='fixed right-4 lg:right-10 bottom-7 md:bottom-9 cursor-pointer md:text-xl bg-Rouge p-1 lg:p-2 text-gray-950 shadow-sm shadow-ColorVert'
         onClick={BackToTop}
       >
         <IoIosArrowUp />
