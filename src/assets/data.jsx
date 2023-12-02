@@ -11,7 +11,7 @@ const  Gallerys = [
         "name" : "Foko Sakalava",
         "picture": "https://photo.comptoir.fr/asset/guide/l-ouest-malgache-en-pays-sakalava/1371/645893-830x415-femme-sakalava-avec-un-masque-de-masonjoany-lors-d-une-ceremonie-traditionnelle-madagascar.jpg",
         "description": "Ny foko Sakalava dia foko  iray ao Madagascar. Ao anaty faritra Mahajanga no misy azy.",
-        "location": "Toliara"
+        "location": "Mahajanga"
     },
     {
         "id": 3,
