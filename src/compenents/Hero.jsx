@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="bg-[url('./assets/mada4.jpg')] w-full h-screen bg-center bg-no-repeat bg-cover">
       <div className='flex justify-center bg-black/60 w-full h-screen'>
-        <div className='pt-56'>
+        <div className='pt-40'>
           <h2 className='text-lg sm:text-2xl md:text-3xl font-bold text-center text-black'>
             Welcome to:
           </h2>
