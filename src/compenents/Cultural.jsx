@@ -15,11 +15,12 @@ const Cultural = () => {
                 <div className=''>
                     <div>
                         <h2 className='text-xl sm:text-2xl lg:text-3xl text-Vert font-medium'>
-                            Special offers for couple
+                            Traditional Clothing
                         </h2>
                         <p className='mb-3 text-gray-400 text-sm sm:text-base'>
-                            Lorem ipsum dolor sit amet consectetur.
-                            Lorem ipsum dolor sit amet consectetur.
+                            Explore the richness of traditional Malagasy textiles,
+                             living symbols of history and cultural identity from various regions.
+                             Each weaving tells a unique story of tradition and style.
                         </p>
                     </div>
                     <div className="bg-[url('./assets/heritage6.jpg')] w-full h-[380px] sm:h-[440px] bg-no-repeat bg-cover bg-top">
@@ -33,11 +34,11 @@ const Cultural = () => {
                     </div>
                     <div className='order-first md:order-none mb-3 md:mb-0'>
                         <h2 className='text-xl sm:text-2xl lg:text-3xl text-Vert font-medium'>
-                            Special offers for couple
+                            Rites and Ceremonies
                         </h2>
                         <p className='text-gray-400 text-sm sm:text-base'>
-                            Lorem ipsum dolor sit amet consectetur.
-                            Lorem ipsum dolor sit amet consectetur.
+                            Discover the rituals and ceremonies shaping social life in Madagascar. 
+                            Ancestral practices infused with spirituality and festivities.
                         </p>
                     </div>
                 </div>
@@ -45,29 +46,29 @@ const Cultural = () => {
                 <div className=''>
                     <div>
                         <h2 className='text-xl sm:text-2xl lg:text-3xl text-Vert font-medium'>
-                            Special offers for couple
+                            Culinary Expertise
                         </h2>
                         <p className='mb-3 text-gray-400 text-sm sm:text-base'>
-                            Lorem ipsum dolor sit amet consectetur.
-                            Lorem ipsum dolor sit amet consectetur.
+                            Immerse yourself in the diverse flavors of Malagasy cuisine. 
+                            Unique dishes crafted from local produce, offering an unforgettable gastronomic experience.
                         </p>
                     </div>
-                    <div className="bg-[url('./assets/heritage2.jpg')] w-full h-[380px] sm:h-[440px] bg-no-repeat bg-cover bg-top">
+                    <div className="bg-[url('./assets/cuisine2.jpg')] w-full h-[380px] sm:h-[440px] bg-no-repeat bg-cover bg-top">
                         <div className='bg-black/20 w-full h-full'/>
                     </div>
                 </div>
 
                 <div className='flex flex-col'>
-                    <div className="bg-[url('./assets/heritage5.jpg')] w-full h-[380px] sm:h-[440px] bg-no-repeat bg-cover bg-top mb-0 md:mb-3">
+                    <div className="bg-[url('./assets/artisanat.jpg')] w-full h-[380px] sm:h-[440px] bg-no-repeat bg-cover bg-top mb-0 md:mb-3">
                         <div className='bg-black/20 w-full h-full'/>
                     </div>
                     <div className='order-first md:order-none mb-3 md:mb-0'>
                         <h2 className='text-xl sm:text-2xl lg:text-3xl text-Vert font-medium'>
-                            Special offers for couple
+                            Traditional Handicrafts
                         </h2>
                         <p className='text-gray-400 text-sm sm:text-base'>
-                            Lorem ipsum dolor sit amet consectetur.
-                            Lorem ipsum dolor sit amet consectetur.
+                            Explore traditional Malagasy craftsmanship, reflecting artistic heritage and inherited skills.
+                             Each piece bears witness to the artistic and cultural craftsmanship of the island.
                         </p>
                     </div>
                 </div>

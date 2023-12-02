@@ -24,8 +24,9 @@ const City = () => {
                             <PiMapPinDuotone className="text-xl mr-1" />
                             Tsingy of Bemaraha
                         </h2>
-                        <p className='mt-10 mx-3 mb-4'>
-                            Lorem, ipsum dolor sit amet consectetur.
+                        <p className='mt-10 mx-3 mb-4 text-sm text-justify font-medium text-gray-400'>
+                            The Tsingy de Bemaraha Integral Nature Reserve is a protected area in Western Madagascar, 
+                            listed as a UNESCO World Heritage Site since 1990.
                         </p>
                     </div>
                 </div>
@@ -38,8 +39,9 @@ const City = () => {
                             <PiMapPinDuotone className="text-xl mr-1" />
                             Rova Manjakamiadana
                         </h2>
-                        <p className='mt-10 mx-3 mb-4'>
-                            Lorem, ipsum dolor sit amet consectetur.
+                        <p className='mt-10 mx-3 mb-4 text-sm text-justify font-medium text-gray-400'>
+                            The Rova of Manjakandriana is a fortified royal complex located
+                             in the center of the Upper Town of Antananarivo, the capital of Madagascar. 
                         </p>
                     </div>
                 </div>
@@ -52,8 +54,9 @@ const City = () => {
                             <PiMapPinDuotone className="text-xl mr-1" />
                             National park Isalo
                         </h2>
-                        <p className='mt-10 mx-3 mb-4'>
-                            Lorem, ipsum dolor sit amet consectetur.
+                        <p className='mt-10 mx-3 mb-4 text-sm text-justify font-medium text-gray-400'>
+                        The Isalo National Park is a protected area in Madagascar, declared a national park in 1999.
+                         The park preserves a portion of a mountain massif sharing its name.
                         </p>
                     </div>
                 </div>

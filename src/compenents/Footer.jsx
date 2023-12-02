@@ -17,11 +17,9 @@ const Footer = () => {
                     </h1>
                   </div>
                   <p className='max-w-[350px] text-gray-400 text-xs sm:text-sm text-justify'>
-                    Lorem ipsum dolor sit amet conse
-                    Lorem ipsum dolor sit amet consectetur.
-                    Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet consectetur.
-                    Lorem ipsum dolor sit amet.
+                    Stay updated on our news to not miss out on the treasures of this fascinating island.
+                     Join our passionate community to share discoveries. Together, let's explore the wonders of Madagascar
+                     and create memories that will last a lifetime.
                   </p>
                 </div>
 
@@ -38,12 +36,12 @@ const Footer = () => {
                   </div>
                   <div>
                     <h1 className='text-Rouge font-medium text-lg'>
-                      More in fact
+                      More
                     </h1>
                     <ul className='flex flex-col text-gray-400 text-sm sm:text-base'>
                       <Link className='hover:text-gray-50'>Blog</Link>
                       <Link className='hover:text-gray-50'>Cookies</Link>
-                      <Link className='hover:text-gray-50'>About</Link>
+                      <Link className='hover:text-gray-50'>Confidentiality</Link>
                     </ul>
                   </div>
                 </div>

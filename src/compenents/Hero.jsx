@@ -11,10 +11,10 @@ const Hero = () => {
           <h1 className='font-bold text-[50px] sm:text-[80px] md:text-[100px] lg:text-[150px]  text-Vert text-center'>
             Madagascar
           </h1>
-          <p className=' text-center font-semibold text-xs sm:text-sm md:text-base'>
-            Lorem ipsum dolor sit amet consectetur dolorem.
+          <p className=' text-center font-semibold text-xs sm:text-base md:text-lg'>
+            Embark on an adventure to Madagascar, where nature's 
             <br />
-            Lorem ipsum dolor sit amet consectetur.
+            wonders and rich heritage await your exploration.
           </p>
           <div className='flex justify-center mt-6'>
             <a href="#explore">
