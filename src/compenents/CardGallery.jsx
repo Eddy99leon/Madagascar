@@ -5,7 +5,7 @@ const CardGallery = ({ gallery }) => {
   return (
     <div className='max-w-[360px] border border-gray-800 shadow-sm shadow-gray-900 rounded-sm'>
         <div className='w-full h-[200px] overflow-hidden'>
-            <img src={gallery.picture} alt="park" className=' object-cover h-full w-full' />
+            {gallery && <img src={gallery.picture} alt="park" className=' object-cover h-full w-full' /> }
         </div>
         <div className='mx-3 pt-6 pb-3'>
             <div className='mb-4'>
