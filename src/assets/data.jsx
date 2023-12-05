@@ -1,6 +1,6 @@
 import baobab from './baobab.jpg'
 import panther from './Panther.jpg'
-import zafimaniry from './zafimaniry.jpg'
+import Zafimaniry5 from './Zafimaniry5.jpg'
 import aloalo from './aloalo.jpg'
 import villageZafimaniry from './villageZafimaniry.jpg'
 import likeAlien from './likeAlien.jpg'
@@ -32,7 +32,7 @@ const  Gallerys = [
     {
         "id": 3,
         "name" : "The  ZAFIMANIRY",
-        "picture": zafimaniry,
+        "picture": Zafimaniry5,
         "description": "ZAFIMANIRY dia foko  iray ao anatin'ny faritanin'ny Fianarantsoa. Ao anaty faritra roa @ renivohi-paritanin'ny foko BETSILEO no misy azy.",
         "location": "Fianarantsoa"
     },
