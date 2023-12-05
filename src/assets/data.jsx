@@ -1,15 +1,18 @@
-import baobab from './ImgGallery/baobab.jpg'
-import panther from './ImgGallery/Panther.jpg'
-import zafimaniry from './ImgGallery/zafimaniry.jpg'
-import aloalo from './ImgGallery/aloalo.jpg'
-import villageZafimaniry from './ImgGallery/villageZafimaniry.jpg'
-import likeAlien from './ImgGallery/likeAlien.jpg'
-import PeopleZafimaniry from './ImgGallery/PeopleZafimaniry.jpg'
-import paradise from './ImgGallery/Paradise.jpg'
-import crowner from './ImgGallery/crowner.jpg'
-import SaintMarie from './ImgGallery/SaintMarie.jpg'
-import babakoto from './ImgGallery/babakoto.jpg'
-import isalo from './ImgGallery/isalo1.jpg'
+import baobab from './baobab.jpg'
+import panther from './Panther.jpg'
+import zafimaniry from './zafimaniry.jpg'
+import aloalo from './aloalo.jpg'
+import villageZafimaniry from './villageZafimaniry.jpg'
+import likeAlien from './likeAlien.jpg'
+import PeopleZafimaniry from './PeopleZafimaniry.jpg'
+import paradise from './Paradise.jpg'
+import crowner from './crowner.jpg'
+import SaintMarie from './SaintMarie.jpg'
+import babakoto from './babakoto.jpg'
+import isalo from './isalo1.jpg'
+import tandroy from './tandroy.jpg'
+import betsileo from './betsileo.jpg'
+import sakalava from './sakalava.jpg'
 
 const  Gallerys = [
     {
@@ -22,7 +25,7 @@ const  Gallerys = [
     {
         "id": 2,
         "name" : "Foko Sakalava",
-        "picture": "https://photo.comptoir.fr/asset/guide/l-ouest-malgache-en-pays-sakalava/1371/645893-830x415-femme-sakalava-avec-un-masque-de-masonjoany-lors-d-une-ceremonie-traditionnelle-madagascar.jpg",
+        "picture": sakalava,
         "description": "Ny foko Sakalava dia foko  iray ao Madagascar. Ao anaty faritra Mahajanga no misy azy.",
         "location": "Mahajanga"
     },
@@ -43,14 +46,14 @@ const  Gallerys = [
     {
         "id": 5,
         "name" : "Fitafy Tandroy",
-        "picture": "https://scontent.ftmm2-1.fna.fbcdn.net/v/t1.6435-9/55635129_2261402864137746_8867786858285760512_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeGmXxpK83jkANpnJvDxcsoE38lFLHj2aKbfyUUsePZops3v8ClB18VgCA7w8CsNxOk1Ymsy4_9czS35AAZJA3y4&_nc_ohc=yQz-N4_KjaEAX_5FAIi&_nc_ht=scontent.ftmm2-1.fna&oh=00_AfDm7nNRsw8PkFl0sycUtmazLJq4WrehNMf07VmCxC7aSw&oe=658EC834",
+        "picture": tandroy,
         "description": "Ny Tandroy dia foko  iray ao Madagascar. Ao anaty faritra Toliara no misy azy.",
         "location": "Toliara"
     },
     {
         "id": 6,
         "name" : "Fitafy Betsileo",
-        "picture": "https://scontent.ftmm2-1.fna.fbcdn.net/v/t1.6435-9/80712499_772112193295845_2334692996030660608_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeHsrEVswE0V2SGzClTtw_AHtlh7IevcEIm2WHsh69wQiQSM-R1oJVC8o3X9aG5oCHB-LElRLLT-oLmRMlrC0Qwm&_nc_ohc=YMpHAfb6zjYAX_-chLF&_nc_ht=scontent.ftmm2-1.fna&oh=00_AfCfPt0Ncsm6lsjZ59oHX58k-oJFrwVkw4FqJ0KM6mhIcw&oe=658ECF62",
+        "picture": betsileo,
         "description": "Ny Betsileo dia foko  iray ao Madagascar. Ao anaty faritra roa @ renivohi-paritanin'ny Fianarantsoa no misy azy.",
         "location": "Fianarantsoa"
     },
