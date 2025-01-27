@@ -64,7 +64,7 @@ const Sidebar = () => {
             href="https://web.facebook.com/profile.php?id=100094137014767" 
             target='_blank'
           >
-            <PiFacebookLogoDuotone className='text-3xl' />
+            <PiFacebookLogoDuotone className='text-3xl text-gray-100' />
           </a>
           <a 
             className=" hover:transform hover:scale-95" 

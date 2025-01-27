@@ -2,7 +2,7 @@ import React from 'react'
 
 const Explore = () => {
   return (
-    <section className='bg-Noir' id='explore'>
+    <section className='bg-Noir'>
         <div className='max-w-5xl mx-auto px-3 pt-20 pb-6'>
             <h1 className='text-center text-Rouge text-xl sm:text-2xl md:text-3xl font-semibold mb-2 md:mb-3'>
                 Explore
