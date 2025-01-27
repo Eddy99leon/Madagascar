@@ -6,7 +6,7 @@ import sakalava from '../assets/sakalava.jpg'
 
 const Hero = () => {
   return (
-    <section className="bg-[url('./assets/mada4.jpg')] w-full bg-center bg-no-repeat bg-cover">
+    <section className="bg-[url('./assets/mada6.jpg')] w-full bg-center bg-no-repeat bg-cover">
       <div className='bg-black/60 w-full'>
         <div className='max-w-5xl mx-auto px-4 pt-24 md:pt-40 pb-12 md:pb-20 grid grid-cols-1 md:grid-cols-2 gap-4'>
           <div className='col-span-1'>
