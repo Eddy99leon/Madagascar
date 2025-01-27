@@ -36,21 +36,21 @@ const Sidebar = () => {
 
         <ul className="flex flex-col mx-auto text-center space-y-4 font-medium text-lg">
             <NavLink 
-                to='/Madagascar/' 
+                to='/' 
                 className='Nav-link' 
                 onClick={handleClose}
             >
                 Home
             </NavLink>
             <NavLink 
-                to='/Madagascar/gallery' 
+                to='/gallery' 
                 className='Nav-link' 
                 onClick={handleClose}
             >
                 Gallery
             </NavLink>
             <NavLink 
-                to='/Madagascar/contact' 
+                to='/contact' 
                 className='Nav-link' 
                 onClick={handleClose}
             >

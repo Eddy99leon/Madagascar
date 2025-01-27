@@ -18,10 +18,10 @@ function App() {
       <ScrollToTop />
       <Sidebar />
       <Routes>
-        <Route basename="/Madagascar/" element={<Layout />}>
-          <Route path="/Madagascar/" element={<Home />} />
-          <Route path="/Madagascar/gallery" element={<Gallery />} />
-          <Route path="/Madagascar/contact" element={<Contact />} />
+        <Route basename="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
       <div 
